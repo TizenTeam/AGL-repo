@@ -71,6 +71,7 @@
   <project name="tizenteam/meta-oic" path="meta-oic" remote="github" revision="sandbox/pcoval/on/master/devel"/>
   <project name="meta-ocf-automotive" path="meta-ocf-automotive" remote="s-osg" revision="master"/>
   <project name="tizenteam/meta-iot-web" path="meta-iot-web" remote="github" revision="sandbox/pcoval/on/master/devel"/>
+  <project name="tizenteam/meta-intel-iot-middleware" path="meta-intel-iot-middleware" remote="github" revision="master" />
 
   <!-- meta-rust -->
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
@@ -92,5 +93,6 @@
   <!-- IoT Security layer -->
   <!-- fixed version since 3936bc3 removed cynara -->
   <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
+
 
 </manifest>
