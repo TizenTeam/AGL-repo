@@ -21,6 +21,8 @@
   <!-- fsl/nxp --> <!-- likely broken -->
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
 
+  <remote fetch="http://git.s-osg.org/" name="s-osg" />
+
   <default revision="master"
            remote="agl"
            sync-j="4" />
@@ -67,6 +69,7 @@
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
+  <project name="meta-ocf-automotive" path="meta-ocf-automotive" remote="s-osg" revision="master"/>
 
   <!-- meta-rust -->
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
