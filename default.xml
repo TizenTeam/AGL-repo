@@ -69,7 +69,7 @@
 
   <!-- iotivity -->
   <project name="tizenteam/meta-oic" path="meta-oic" remote="github" revision="master"/>
-  <project name="meta-ocf-automotive" path="meta-ocf-automotive" remote="s-osg" revision="master"/>
+  <project name="tizenteam/meta-ocf-automotive" path="meta-ocf-automotive" remote="github" revision="sandbox/pcoval/on/master/devel"/>
   <project name="tizenteam/meta-iot-web" path="meta-iot-web" remote="github" revision="sandbox/pcoval/on/master/devel"/>
 
   <!-- meta-rust -->
