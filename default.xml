@@ -60,6 +60,7 @@
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
+  <project name="tizenteam/meta-iot-web" path="meta-iot-web" remote="github" revision="sandbox/pcoval/on/master/devel"/>
 
   <!-- meta-amb -->
   <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
