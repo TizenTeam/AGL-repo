@@ -26,9 +26,9 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl"/>
-  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="tizenteam/meta-agl" path="meta-agl" remote="github" revision="sandbox/pcoval/on/latest/devel"/>
+  <project name="tizenteam/meta-agl-extra" path="meta-agl-extra" remote="github" revision="sandbox/pcoval/on/latest/devel"/>
+  <project name="tizenteam/meta-agl-demo" path="meta-agl-demo" remote="github" revision="sandbox/pcoval/on/latest/devel"/>
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
 
   <!-- Yocto/OpenEmbedded things. -->
