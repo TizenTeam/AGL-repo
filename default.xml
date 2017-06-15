@@ -31,7 +31,7 @@
   <project name="tizenteam/meta-agl" path="meta-agl" remote="github" revision="sandbox/pcoval/on/master/devel"/>
   <project name="tizenteam/meta-agl-demo" path="meta-agl-demo" remote="github" revision="sandbox/pcoval/on/master/devel"/>
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
-  <project name="tizenteam/meta-agl-extra" path="meta-agl-extra" remote="github" revision="sandbox/pcoval/on/master/devel"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="8379268522e453923514cc74ef37b9585ab4bde7"/>
@@ -92,5 +92,6 @@
   <!-- IoT Security layer -->
   <!-- fixed version since 3936bc3 removed cynara -->
   <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
+
 
 </manifest>
