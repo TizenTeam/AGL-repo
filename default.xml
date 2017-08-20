@@ -64,7 +64,7 @@
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
 
   <!-- iotivity -->
-  <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.1" />
 
   <!-- meta-rust -->
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
